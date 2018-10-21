@@ -1,5 +1,5 @@
 class School
-  def initialize(rooster)
-    rooster  = []
+  def initialize(roster)
+    roster  = []
   end
 end
