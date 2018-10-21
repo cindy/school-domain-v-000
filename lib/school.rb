@@ -15,6 +15,6 @@ class School
   end
 
   def sort
-    @roster.sort{|a,z| a[1].sort <=> z[1].sort}
+    @roster.each{|k, v| v.sort!}
   end
 end
