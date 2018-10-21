@@ -1,4 +1,5 @@
 class School
-  def initialize
+  def initialize(rooster)
+    rooster  = []
   end
 end
