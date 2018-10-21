@@ -15,6 +15,6 @@ class School
   end
 
   def sort
-    Hash(@roster.sort)
+    @roster.sort
   end
 end
